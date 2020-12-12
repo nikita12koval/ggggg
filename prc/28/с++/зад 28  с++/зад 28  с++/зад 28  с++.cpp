@@ -2,7 +2,7 @@
 using namespace std;
 void prime_factorization(int i, bool repeat = true)
 {
-    for (int a = 2; a <= i; ++a)
+    for (int a = 5; a <= i; ++a)
     {
         int x = 0;
         int l = x + x;
