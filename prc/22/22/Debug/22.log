@@ -1,0 +1,3 @@
+﻿  22.cpp
+D:\gggg\prc\22\22\22.cpp(69,19): warning C4305: '=': truncation from 'int' to 'bool'
+D:\gggg\prc\22\22\22.cpp(69,19): error C2106: '=': left operand must be l-value
