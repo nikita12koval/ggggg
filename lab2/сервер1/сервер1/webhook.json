@@ -1,0 +1,12 @@
+{
+    "webhooks":[
+	<div class="form-row align-items-center">
+    <div class="col">
+      <input type="text" value="{https://webhook.site/db27d01b-e826-4282-b89a-ccc125950606}" class="form-control mb-2" disabled>
+    </div>
+ 
+    <div class="col">
+        <button type="submit" name="del" value="{https://webhook.site/db27d01b-e826-4282-b89a-ccc125950606}" class="btn btn-danger mb-2">Удалить</button>
+    </div>
+</div>]
+}

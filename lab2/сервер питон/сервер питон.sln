@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "сервер питон", "сервер питон\сервер питон.pyproj", "{E253EFD8-A6F9-4AD1-94CB-737B04872A33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E253EFD8-A6F9-4AD1-94CB-737B04872A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E253EFD8-A6F9-4AD1-94CB-737B04872A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D31D5C61-837B-4E21-B9B1-CD31CAD1D38E}
+	EndGlobalSection
+EndGlobal
