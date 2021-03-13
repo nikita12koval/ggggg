@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void BubbleSort(int*, int);
+void Sort(int*, int);
 
 int main()
 {
@@ -18,7 +18,7 @@ int main()
         array[i] = rand() % 100;
         cout << array[i] << ' ';
     }
-    BubbleSort(array, N);
+    Sort(array, N);
 
     cout << endl << endl;
     for (int i = 0; i < N; ++i) {
@@ -30,7 +30,7 @@ int main()
 }
 
 
-void BubbleSort(int* array, int N)
+void Sort(int* array, int N)
 {
     int temp;
     for (int i = 0; i < N; i++) {
