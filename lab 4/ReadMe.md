@@ -34,7 +34,7 @@
   Выполняя работу нам потребуется скачать и установить  Qt Creator.(Рис.1) 
 
 
-<p align="center"> <img width="1000" height="400" src="./pict/01.png"> </p>
+<p align="center"> <img width="1250" height="500" src="./pict/01.png"> </p>
 <p align="center"> Рисунок 1 - установка программы </p> </br>
 
 Далее изменил в главной форме проэкта текст на "Input 1", "Input 2", "Output" на "Ввод 1", "Ввод 2" и "Вывод".(Рис.2)
