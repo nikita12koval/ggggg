@@ -5,7 +5,7 @@ import openpyxl
 app = Flask(__name__)
 
 def reload_data():
-    answer = requests.get('http://localhost:5000/raw').content.decode("utf8")
+    answer = requests.get('http://localhost:5000').content.decode("utf8")
     if answer:
         info = json.loads(answer)
     else:
@@ -20,6 +20,7 @@ def index():
  
 if __name__ == "__main__":
     app.run()
+    >>>>>>> db27d01b-e826-4282-b89a-ccc125950606
 
     with open ('webhook.json') as file:
         data = json.load(file)
@@ -49,36 +50,6 @@ for movie in data['webhook']:
 
 book.save("list.xlsx")
 book.close()
-=======
-from flask import Flask, request
- 
-app = Flask(__name__)
- 
-@app.route('/', methods=['POST', 'GET'])
-def index():
-    if request.method == 'POST':
-        return "Это POST запрос"
-    if request.method == 'GET':
-        return "Это GET запрос"
- 
-if __name__ == "__main__":
-    app.run()
->>>>>>> db27d01b-e826-4282-b89a-ccc125950606
-=======
-from flask import Flask, request
- 
-app = Flask(__name__)
- 
-@app.route('/', methods=['POST', 'GET'])
-def index():
-    if request.method == 'POST':
-        return "Это POST запрос"
-    if request.method == 'GET':
-        return "Это GET запрос"
- 
-if __name__ == "__main__":
-    app.run()
->>>>>>> db27d01b-e826-4282-b89a-ccc125950606
 
 
 
