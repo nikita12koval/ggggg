@@ -1,0 +1,3 @@
+﻿  33.cpp
+D:\gggg\prc\зад 33\33\33\33.cpp(16,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  33.vcxproj -> D:\gggg\prc\зад 33\33\Debug\33.exe
